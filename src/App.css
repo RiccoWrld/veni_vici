@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.dog-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card ul li,
+.ban-list ul li {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem;
+  transition: background 0.2s;
+}
+
+.card ul li:hover,
+.ban-list ul li:hover {
+  background: #f0f0f0;
+}
+
+.ban-list {
+  margin-top: 2rem;
+}
